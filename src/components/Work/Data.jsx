@@ -23,9 +23,10 @@ export const projectsData = [
 
         {
             id: 3,
-            image: Coding1,
-            title: "Programming Challenges",
+            image: Expanding-cards,
+            title: "Expanding Cards",
             category: "Coding",
+            url: "https://f1-2023-teams.netlify.app/"
         },
 
         {
