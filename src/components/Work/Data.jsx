@@ -1,6 +1,6 @@
 import MovieBanner from '../../assets/Movie-Banner.png';
 import Parche1 from '../../assets/Parche1.png';
-import Coding1 from '../../assets/Coding1.png';
+import Expandingcards from '../../assets/Expandingcards.png';
 import Solar1 from '../../assets/Solar1.png';
 import BankHero from '../../assets/BankHero.png';
 
@@ -23,7 +23,7 @@ export const projectsData = [
 
         {
             id: 3,
-            image: Expanding-cards,
+            image: Expandingcards,
             title: "Expanding Cards",
             category: "Coding",
             url: "https://f1-2023-teams.netlify.app/"
