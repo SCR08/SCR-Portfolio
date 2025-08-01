@@ -30,7 +30,7 @@ const Portfolio = () => {
       <div className="portfolio__filters">
         {projectsNav.map((item, index) => {
           return (
-            <span onClick={(e) => {handleClick(e, index)}} className={`${active === index ? 'active-work' : ""} portfolio__item`} key={index}>{item.name}
+            <span onClick={(e) => {handleClick(e, index)}} className={`${active === index ? 'active-portfolio' : ""} portfolio__item`} key={index}>{item.name}
             </span>
             );
         })}
