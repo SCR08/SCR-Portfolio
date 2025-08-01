@@ -9,7 +9,7 @@ const UXDesign = () => {
             <div className="skills__group">
 
                 <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
+                <i className='bx bx-badge-check'></i>
 
                     <div>
                         <h3 className="skills__name">Empathize</h3>
@@ -18,7 +18,7 @@ const UXDesign = () => {
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
+                <i className='bx bx-badge-check'></i>
 
                     <div>
                         <h3 className="skills__name">Research</h3>
@@ -27,7 +27,7 @@ const UXDesign = () => {
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
+                <i className='bx bx-badge-check'></i>
 
                     <div>
                         <h3 className="skills__name">Wireframing</h3>
@@ -36,7 +36,7 @@ const UXDesign = () => {
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
+                <i className='bx bx-badge-check'></i>
 
                     <div>
                         <h3 className="skills__name">Prototyping</h3>
@@ -48,7 +48,7 @@ const UXDesign = () => {
             </div>
             <div className="skills__group">
                 <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
+                <i className='bx bx-badge-check'></i>
 
                     <div>
                         <h3 className="skills__name">Testing</h3>
@@ -58,7 +58,7 @@ const UXDesign = () => {
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
+                <i className='bx bx-badge-check'></i>
 
                     <div>
                         <h3 className="skills__name">Figma</h3>
@@ -68,7 +68,7 @@ const UXDesign = () => {
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bx-badge-check'></i>
+                <i className='bx bx-badge-check'></i>
 
                     <div>
                         <h3 className="skills__name">Adobe XD</h3>
