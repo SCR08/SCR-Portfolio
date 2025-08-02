@@ -41,6 +41,30 @@
     cursor: pointer;
 }
 
+/* Merchant cards */
+.merchant-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.merchant-link {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    text-decoration: none;
+    margin-bottom: var(--mb-1);
+}
+
+.merchant-link:hover {
+    text-decoration: underline;
+}
+
+.merchant-disclaimer {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+}
+
 .portfolio__img {
     width: 800px;
     border-radius: 1rem;
