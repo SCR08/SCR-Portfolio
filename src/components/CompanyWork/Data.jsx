@@ -1,42 +1,35 @@
-import BankHero from '../../assets/BankHero.png';
-import Parche1 from '../../assets/Parche1.png';
-import Solar1 from '../../assets/Solar1.png';
-
-export const companyProjectsData = [
-  {
-    id: 1,
-    image: BankHero,
-    title: 'Website Redesign',
-    category: 'Company A',
-    url: 'https://example.com/company-a-project'
-  },
-  {
-    id: 2,
-    image: Parche1,
-    title: 'Mobile App',
-    category: 'Company B',
-    url: 'https://example.com/company-b-project'
-  },
-  {
-    id: 3,
-    image: Solar1,
-    title: 'Dashboard UI',
-    category: 'Company C',
-    url: 'https://example.com/company-c-project'
-  }
+export const merchantsData = [
+  { id: 1, name: 'NW Gallery Furniture', url: 'https://www.nwgalleryfurniture.com/' },
+  { id: 2, name: "Abernathy's Complete Home Furnishings", url: 'https://www.abernathysfurniture.com/' },
+  { id: 3, name: 'Robert Miller & Son Furniture', url: 'https://www.robertmillerandson.com/' },
+  { id: 4, name: "King & Bunny's Appliances", url: 'https://www.kingandbunnys.com/' },
+  { id: 5, name: 'Ayers Furniture', url: 'https://www.ayersfurniture.com/' },
+  { id: 6, name: 'Appliance Liquidators', url: 'https://www.applianceliquidators.com/' },
+  { id: 7, name: 'Factory Mattress Outlet', url: 'https://www.factorymattressusa.com/' },
+  { id: 8, name: 'Premier Appliance', url: 'https://www.premierappliancejc.com/' },
+  { id: 9, name: 'Lorenz Appliance', url: 'https://www.lorenzappliance.com/' },
+  { id: 10, name: 'Grebes Online', url: 'https://www.grebesonline.com/' },
+  { id: 11, name: 'Mattress Plus and Furniture GA', url: 'https://www.mattressplusga.com/' },
+  { id: 12, name: 'Sleep Shopee and Furniture Gallery', url: 'https://myhutchinsonfurniture.com/' },
+  { id: 13, name: 'Boomtown Furniture', url: 'https://boomtownfurniture.net/' },
+  { id: 14, name: 'Sleep on It', url: 'https://sleeponit.com/' },
+  { id: 15, name: 'G & H Appliance', url: 'https://www.gandhappliance.com/' },
+  { id: 16, name: 'Fergus Home and Hardware', url: 'https://www.fergushh.com/' },
+  { id: 17, name: "Lucy's Appliance", url: 'https://lucysappliances.com/' },
+  { id: 18, name: 'Household Appliance', url: 'https://www.householdmqt.com/' },
+  { id: 19, name: 'Sleepy Hollow Furniture', url: 'https://www.sleepyhollowfurniture.com/' },
+  { id: 20, name: "Today's Bed", url: 'http://todaysbed.com.nmg-platform.com/' },
+  { id: 21, name: "Sparrow's Home Furnishings", url: 'https://www.sparrowshomefurnishings.com/' },
+  { id: 22, name: "Stevenson's Ace Hardware", url: 'https://www.shopstevensons.com/' },
+  { id: 23, name: 'Furniture & Mattress Clearance Center', url: 'https://www.clearancehutch.com/' },
+  { id: 24, name: "Poletski's Appliance Center", url: 'https://www.poletskis.com/' },
+  { id: 25, name: 'Mattress Land and Furniture', url: 'https://www.mattresslandaz.com/' },
+  { id: 26, name: "Arwood's Furniture & Mattress", url: 'https://www.arwoodssleep.com/' },
+  { id: 27, name: 'Graugnard Furniture & Appliance', url: 'https://www.graugnard.com/' },
+  { id: 28, name: "Frank's Appliance", url: 'https://www.franksappliance.com/' },
+  { id: 29, name: 'Granite True Value', url: 'https://www.granitetruevalue.com/' },
+  { id: 30, name: 'Chavis Furniture', url: 'https://www.chavisfurniture.com/' },
+  { id: 31, name: 'Topline Appliance', url: 'https://toplinesuperstore.net/' }
 ];
 
-export const companyNav = [
-  {
-    name: 'All'
-  },
-  {
-    name: 'Company A'
-  },
-  {
-    name: 'Company B'
-  },
-  {
-    name: 'Company C'
-  }
-];
+export const disclaimer = 'Site by Sebastian Cruz, Main Designer & Migration Specialist. All design and intellectual property rights belong to Primeworks LLC.';
