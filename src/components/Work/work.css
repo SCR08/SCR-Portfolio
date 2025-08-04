@@ -16,8 +16,7 @@
 }
 
 .portfolio__item:hover {
-    background-color: var(--title-color-dark);
-    color: var(--container-color);
+    color: var(--title-color-dark);
 }
 
 
@@ -102,6 +101,29 @@
     transform: translateX(0.25rem);
 }
 
+
+/* Pagination */
+.portfolio__pagination {
+    margin-top: var(--mb-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.portfolio__pagination .portfolio__item {
+    background: none;
+    border: none;
+}
+
+.portfolio__pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.portfolio__page-indicator {
+    font-weight: var(--font-bold);
+}
 
 /* Active */
 
