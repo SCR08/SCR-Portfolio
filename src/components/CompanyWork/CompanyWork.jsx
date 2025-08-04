@@ -7,8 +7,9 @@ const CompanyWork = () => {
     <section className="work section" id="company-work">
       <h2 className="section__title">Professional Work</h2>
       <span className="section__subtitle">Company projects</span>
+                <CompanyPortfolio />
 
-      <CompanyPortfolio />
+
     </section>
   );
 };
