@@ -16,8 +16,7 @@
 }
 
 .portfolio__item:hover {
-    background-color: var(--title-color-dark);
-    color: var(--container-color);
+    color: var(--title-color-dark);
 }
 
 
