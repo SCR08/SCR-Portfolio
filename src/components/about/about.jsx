@@ -4,7 +4,26 @@ import AboutImg from '../../assets/profile.jpg';
 import CV from '../../assets/SCR-Resume.pdf';
 import Info from './Info';
 
+const calculateAge = (birthDateString) => {
+  const today = new Date()
+  const birthDate = new Date(birthDateString)
+
+  let age = today.getFullYear() - birthDate.getFullYear()
+  const monthDifference = today.getMonth() - birthDate.getMonth()
+
+  if (
+    monthDifference < 0 ||
+    (monthDifference === 0 && today.getDate() < birthDate.getDate())
+  ) {
+    age -= 1
+  }
+
+  return age
+}
+
 const about = () => {
+  const age = calculateAge('1999-08-08')
+
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -19,7 +38,7 @@ const about = () => {
           Hi! I'm Sebastian, and I wanted to take a moment to tell you a little about myself.
           <br/>
           <br/>
-          I'm a 24-year-old guy who's on a mission to make his mark in this world.
+          I'm a {age}-year-old guy who's on a mission to make his mark in this world.
           In my free time, I'm a big fan of F1 and other motorsports, and I also love video games and technology.
           <br/>
           <br/>
