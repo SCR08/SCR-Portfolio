@@ -32,4 +32,4 @@ export const merchantsData = [
   { id: 31, name: 'Topline Appliance', url: 'https://toplinesuperstore.net/', image: 'https://image.thum.io/get/width/600/https://toplinesuperstore.net/' }
 ];
 
-export const disclaimer = 'Site by Sebastian Cruz, Main Designer & Migration Specialist. All design and intellectual property rights belong to Primeworks LLC.';
+export const disclaimer = 'Implementation contribution by Sebastian Cruz as part of the NMG team. Brand and site content remain the property of their respective owners.';

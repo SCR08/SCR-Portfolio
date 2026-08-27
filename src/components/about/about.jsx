@@ -4,30 +4,11 @@ import AboutImg from '../../assets/profile.jpg';
 import CV from '../../assets/SCR-Resume.pdf';
 import Info from './Info';
 
-const calculateAge = (birthDateString) => {
-  const today = new Date()
-  const birthDate = new Date(birthDateString)
-
-  let age = today.getFullYear() - birthDate.getFullYear()
-  const monthDifference = today.getMonth() - birthDate.getMonth()
-
-  if (
-    monthDifference < 0 ||
-    (monthDifference === 0 && today.getDate() < birthDate.getDate())
-  ) {
-    age -= 1
-  }
-
-  return age
-}
-
 const about = () => {
-  const age = calculateAge('1999-08-08')
-
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      <h2 className="section__title">About</h2>
+      <span className="section__subtitle">Implementation experience backed by customer empathy</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="Sebastian" className="about__img" />
@@ -35,18 +16,12 @@ const about = () => {
           <Info />
 
           <p className="about__description">
-          Hi! I'm Sebastian, and I wanted to take a moment to tell you a little about myself.
-          <br/>
-          <br/>
-          I'm a {age}-year-old guy who's on a mission to make his mark in this world.
-          In my free time, I'm a big fan of F1 and other motorsports, and I also love video games and technology.
-          <br/>
-          <br/>
-          I have a lot of experience in the customer service industry, having worked in that field for the last 4 years.
-          This has helped me develop a wide range of soft skills and given me some valuable insights into the professional world.
+          I am a bilingual Web Implementation Specialist and Front-End Developer based in Bogota, Colombia. I translate business and customer needs into responsive websites, reusable front-end components, and maintainable delivery workflows.
+          <br/><br/>
+          My background spans CMS migrations, React and TypeScript development, UX, accessibility, SEO, and more than five years of customer-facing work. That combination helps me communicate clearly, spot usability problems early, and deliver reliable experiences across teams and devices.
           </p>
 
-          <a download="" href={CV} className="button button--flex">Download CV
+          <a download="Sebastian-Cruz-Resume.pdf" href={CV} className="button button--flex">Download resume
           <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

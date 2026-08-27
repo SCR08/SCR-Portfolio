@@ -6,22 +6,22 @@ const Info = () => {
         <div className="about__box">
         <i className='bx bx-briefcase-alt-2'></i>
 
-            <h3 className="about__title">Experience</h3>
-                <span className="about__subtitle">4 years working</span>
+            <h3 className="about__title">Web migrations</h3>
+                <span className="about__subtitle">40+ client websites</span>
         </div>
 
         <div className="about__box">
-        <i className='bx bx-game'></i>
+        <i className='bx bx-git-branch'></i>
 
-            <h3 className="about__title">Hobbies</h3>
-                <span className="about__subtitle">F1, Videogames & Technology</span>
+            <h3 className="about__title">Lead workflows</h3>
+                <span className="about__subtitle">17+ implementations</span>
         </div>
 
         <div className="about__box">
-        <i className='bx bx-cake' ></i>
+        <i className='bx bx-message-rounded-dots' ></i>
 
-            <h3 className="about__title">Age</h3>
-                <span className="about__subtitle">24 years old</span>
+            <h3 className="about__title">Languages</h3>
+                <span className="about__subtitle">Spanish + English C1</span>
         </div>
 
     </div>

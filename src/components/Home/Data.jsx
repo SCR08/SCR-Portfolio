@@ -3,11 +3,13 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">Sebastian Cruz R.</h1>
-        <h3 className="home__subtitle"> Jr UX Designer, Jr Front-End Developer</h3>
-        <p className="home__description">I'm a creative Designer and Developer eager to learn and master new abilities</p>
-        <a href="#contact" className="button button--flex">
-            Let's talk!
+        <h1 className="home__title">Sebastian Cruz</h1>
+        <p className="home__eyebrow">Web Implementation Specialist</p>
+        <h3 className="home__subtitle">Front-End Developer focused on accessible, high-performing web experiences.</h3>
+        <p className="home__description">I build and improve websites, CMS migrations, and CRM-driven lead-generation workflows for US-based teams and clients.</p>
+        <div className="home__actions">
+        <a href="#work" className="button button--flex">
+            View selected work
             <svg
                   className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +28,8 @@ const Data = () => {
                   ></path>
             </svg>
         </a>
+        <a href="#contact" className="button button--flex button--secondary">Let's talk</a>
+        </div>
     </div>
   )
 }
