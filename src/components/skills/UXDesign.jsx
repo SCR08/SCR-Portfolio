@@ -3,7 +3,7 @@ import React from 'react'
 const UXDesign = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Jr UX Designer</h3>
+        <h3 className="skills__title">UX, Accessibility & Quality</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -12,8 +12,8 @@ const UXDesign = () => {
                 <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Empathize</h3>
-                        <span className="skills__level">Advanced</span>
+                        <h3 className="skills__name">Responsive design</h3>
+                        <span className="skills__level">Cross-device delivery</span>
                     </div>
                 </div>
 
@@ -21,8 +21,8 @@ const UXDesign = () => {
                 <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Research</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Accessibility</h3>
+                        <span className="skills__level">WCAG-minded implementation</span>
                     </div>
                 </div>
 
@@ -30,8 +30,8 @@ const UXDesign = () => {
                 <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Wireframing</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">SEO & performance</h3>
+                        <span className="skills__level">Lighthouse optimization</span>
                     </div>
                 </div>
 
@@ -39,8 +39,8 @@ const UXDesign = () => {
                 <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Prototyping</h3>
-                        <span className="skills__level">Intermidiate</span>
+                        <h3 className="skills__name">Figma</h3>
+                        <span className="skills__level">Wireframes and prototypes</span>
                     </div>
 
                 </div>
@@ -51,8 +51,8 @@ const UXDesign = () => {
                 <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Testing</h3>
-                        <span className="skills__level">Intermidiate</span>
+                        <h3 className="skills__name">Usability testing</h3>
+                        <span className="skills__level">Task and interface validation</span>
                     </div>
 
                 </div>
@@ -61,8 +61,8 @@ const UXDesign = () => {
                 <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Figma</h3>
-                        <span className="skills__level">Intermidiate</span>
+                        <h3 className="skills__name">Collaboration</h3>
+                        <span className="skills__level">Design, accounts, and delivery teams</span>
                     </div>
 
                 </div>
@@ -72,7 +72,7 @@ const UXDesign = () => {
 
                     <div>
                         <h3 className="skills__name">Adobe XD</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">UX design and prototyping</span>
                     </div>
 
                 </div>

@@ -8,11 +8,13 @@
   /* Colors */
   /*Color mode HEX*/
 
-  --title-color: #4d4d4d;
-  --title-color-dark: #000;
-  --text-color: #757575;
-  --body-color: #fafafa;
+  --title-color: #17324d;
+  --title-color-dark: #0b1f33;
+  --text-color: #52677b;
+  --body-color: #f6f8fb;
   --container-color: #fff;
+  --accent-color: #2563a6;
+  --accent-soft: #e8f1fb;
 
     /*
   --title-color: #fff;
@@ -167,6 +169,16 @@ img {
 
 .button:hover {
   background-color: var(--title-color-dark);
+}
+
+.button--secondary {
+  background-color: transparent;
+  border: 1px solid var(--title-color);
+  color: var(--title-color);
+}
+
+.button--secondary:hover {
+  background-color: var(--accent-soft);
 }
 
 .button__icon {

@@ -21,10 +21,10 @@ const Studies = () => {
 
                 <div className="studies__data">
                   <div>
-                    <h3 className="studies__title">Programa ONE</h3>
-                      <span className="studies__subtitle">Oracle Next Eductation</span>
+                    <h3 className="studies__title">Computer Science Coursework</h3>
+                      <span className="studies__subtitle">University of the People - approximately 50% of the associate program completed; studies paused</span>
                       <div className="studies__duration">
-                        <i className="uil uil-calendar-alt"></i> 2023 - Present
+                        <i className="uil uil-calendar-alt"></i> Nov 2023 - 2024
                       </div>
                   </div>
 
