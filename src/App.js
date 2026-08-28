@@ -5,7 +5,6 @@ import Home from './components/Home/Home';
 import About from  './components/about/about';
 import Skills from './components/skills/Skills';
 import Work from './components/Work/Work';
-import CaseStudy from './components/CaseStudy/CaseStudy';
 import CompanyWork from './components/CompanyWork/CompanyWork';
 import Studies from './components/Studies/Studies';
 import Contact from './components/Contact/Contact';
@@ -21,7 +20,6 @@ const App = () => {
       <About />
       <Skills />
       <Work />
-      <CaseStudy />
       <CompanyWork />
       <Studies />
       <Contact />

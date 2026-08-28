@@ -21,9 +21,10 @@ const Portfolio = () => {
     }
   }, [item]);
 
-  const handleClick = (e, index) => {
-    setItem({name: e.target.textContent});
+  const handleClick = (name, index) => {
+    setItem({name});
     setActive(index);
+    setVisibleCount(6);
   }
 
   return (
@@ -31,8 +32,15 @@ const Portfolio = () => {
       <div className="portfolio__filters">
         {projectsNav.map((item, index) => {
           return (
-            <span onClick={(e) => {handleClick(e, index)}} className={`${active === index ? 'active-portfolio' : ""} portfolio__item`} key={index}>{item.name}
-            </span>
+            <button
+              type="button"
+              onClick={() => handleClick(item.name, index)}
+              className={`${active === index ? 'active-portfolio' : ""} portfolio__item`}
+              aria-pressed={active === index}
+              key={item.name}
+            >
+              {item.name}
+            </button>
             );
         })}
       </div>

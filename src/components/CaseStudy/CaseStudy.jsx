@@ -3,7 +3,7 @@ import './caseStudy.css';
 
 const CaseStudy = () => {
   return (
-    <section className="case-study section" id="case-study">
+    <div className="case-study" id="nmg-case-study">
       <div className="case-study__container container">
         <p className="case-study__eyebrow">Featured case study</p>
         <div className="case-study__heading grid">
@@ -46,7 +46,7 @@ const CaseStudy = () => {
 
         <p className="case-study__note">Client names and internal process details are intentionally limited. Work was completed as part of the NMG team.</p>
       </div>
-    </section>
+    </div>
   );
 };
 

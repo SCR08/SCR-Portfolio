@@ -33,3 +33,38 @@ export const merchantsData = [
 ];
 
 export const disclaimer = 'Implementation contribution by Sebastian Cruz as part of the NMG team. Brand and site content remain the property of their respective owners.';
+
+export const everbridalWork = [
+  {
+    id: 'lead-magnets',
+    metric: '17+',
+    title: 'Lead Magnet & CRM Workflows',
+    description: 'End-to-end GoHighLevel implementations combining responsive forms, lead capture, CRM automations, testing, and client-ready delivery.',
+    tags: ['GoHighLevel', 'CRM automation', 'Forms', 'Responsive QA']
+  },
+  {
+    id: 'web-redesigns',
+    metric: '4 platforms',
+    title: 'Website Redesigns & Optimization',
+    description: 'Client website improvements across WordPress, Wix, Squarespace, and Webflow, focused on usability, responsiveness, SEO, and conversion.',
+    tags: ['WordPress', 'Webflow', 'Wix', 'Squarespace']
+  },
+  {
+    id: 'delivery-system',
+    metric: '1st',
+    title: 'Standardized Delivery Workflow',
+    description: 'Introduced the team\'s first structured web-development process, from request intake and implementation through QA, maintenance, and account-status changes.',
+    tags: ['Process design', 'Web operations', 'Maintenance', 'Quality control']
+  }
+];
+
+export const freelanceWork = [
+  {
+    id: 'fennec-mobile',
+    metric: 'iOS + Android',
+    title: 'Fennec Mobile App Contract',
+    description: 'Completed the React Native iOS build, delivered interface improvements with reusable components, and advanced the Android build toward feature parity while collaborating on a Figma-led redesign.',
+    tags: ['React Native', 'Figma', 'Reusable components', 'Mobile UX'],
+    note: 'Private contract work - public product links and client internals are intentionally omitted.'
+  }
+];

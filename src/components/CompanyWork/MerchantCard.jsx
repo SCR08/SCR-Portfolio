@@ -11,6 +11,7 @@ const MerchantCard = ({ merchant }) => {
         className="merchant-preview"
         src={preview}
         alt={`${merchant.name} preview`}
+        loading="lazy"
       />
       <a
         href={merchant.url}
