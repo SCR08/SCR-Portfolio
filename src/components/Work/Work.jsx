@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <section className="work section" id="work">
         <h2 className="section__title">Selected Work</h2>
-        <span className="section__subtitle">Products, implementation systems, and UX case studies</span>
+        <span className="section__subtitle">Product engineering and UX projects with real destinations</span>
 
         <Portfolio />
     </section>

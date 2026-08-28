@@ -7,6 +7,8 @@
 }
 
 .portfolio__item {
+    background: transparent;
+    border: 1px solid transparent;
     cursor: pointer;
     color: var(--title-color);
     padding: 0.50rem 1rem;
@@ -16,7 +18,13 @@
 }
 
 .portfolio__item:hover {
-    color: var(--title-color-dark);
+    background: var(--accent-soft);
+    color: var(--accent-color);
+}
+
+.portfolio__item:focus-visible {
+    outline: 3px solid rgba(37, 99, 166, 0.25);
+    outline-offset: 2px;
 }
 
 
@@ -34,6 +42,8 @@
     transition: transform 0.4s;
     overflow: hidden;
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio__card:hover {
@@ -101,14 +111,33 @@
 .portfolio__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: var(--mb-1); }
 .portfolio__tags li { background: var(--accent-soft); border-radius: 999px; color: var(--title-color); font-size: var(--smaller-font-size); padding: 0.35rem 0.65rem; }
 
+.portfolio__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: auto;
+}
+
 .portfolio__button {
+    border: 1px solid rgba(37, 99, 166, 0.3);
+    border-radius: 0.65rem;
     color: var(--accent-color);
     font-weight: var(--font-bold);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    padding: 0.6rem 0.85rem;
 }
+
+.portfolio__button--primary {
+    background: var(--title-color);
+    border-color: var(--title-color);
+    color: var(--container-color);
+}
+
+.portfolio__button:hover { background: var(--accent-soft); }
+.portfolio__button--primary:hover { background: var(--title-color-dark); }
 
 .portfolio__button-icon {
     font-size: 1rem;
@@ -150,6 +179,11 @@
     color: var(--container-color);
 }
 
+.portfolio__item.active-portfolio:hover {
+    background-color: var(--title-color-dark);
+    color: var(--container-color);
+}
+
 /*Breakpoints */
 
 /* For large devices */
@@ -183,6 +217,7 @@
 }
 
 @media screen and (max-width: 576px) {
+    .portfolio__filters { flex-wrap: wrap; row-gap: 0.5rem; }
     .portfolio__container {
         grid-template-columns: 1fr;
     }

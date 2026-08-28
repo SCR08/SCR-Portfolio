@@ -31,6 +31,7 @@ const CompanyPortfolio = () => {
       </div>
       <div className="portfolio__pagination">
         <button
+          type="button"
           className="portfolio__item"
           onClick={handlePrev}
           disabled={currentPage === 1}
@@ -41,6 +42,7 @@ const CompanyPortfolio = () => {
           {currentPage} / {totalPages}
         </span>
         <button
+          type="button"
           className="portfolio__item"
           onClick={handleNext}
           disabled={currentPage === totalPages}
