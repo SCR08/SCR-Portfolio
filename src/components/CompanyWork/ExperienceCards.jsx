@@ -10,6 +10,18 @@ const ExperienceCards = ({ items }) => (
         <ul className="experience-card__tags" aria-label={`${item.title} tools and methods`}>
           {item.tags.map((tag) => <li key={tag}>{tag}</li>)}
         </ul>
+        {item.link && (
+          <a
+            className="experience-card__link"
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${item.linkLabel} for ${item.title} (opens in a new tab)`}
+          >
+            {item.linkLabel}
+            <span aria-hidden="true">&nbsp;&#8599;</span>
+          </a>
+        )}
         {item.note && <small className="experience-card__note">{item.note}</small>}
       </article>
     ))}

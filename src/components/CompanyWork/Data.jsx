@@ -44,10 +44,10 @@ export const everbridalWork = [
   },
   {
     id: 'web-redesigns',
-    metric: '4 platforms',
-    title: 'Website Redesigns & Optimization',
-    description: 'Client website improvements across WordPress, Wix, Squarespace, and Webflow, focused on usability, responsiveness, SEO, and conversion.',
-    tags: ['WordPress', 'Webflow', 'Wix', 'Squarespace']
+    metric: '12+ platforms',
+    title: 'Website Builds, Redesigns & Optimization',
+    description: 'Built, redesigned, maintained, and troubleshot client websites across modern and legacy CMS environments, with a focus on responsive delivery, usability, SEO, and conversion.',
+    tags: ['CMS delivery', 'Legacy platforms', 'Hosting', 'Technical support']
   },
   {
     id: 'delivery-system',
@@ -58,7 +58,35 @@ export const everbridalWork = [
   }
 ];
 
+export const everbridalPlatforms = [
+  {
+    id: 'wordpress',
+    title: 'WordPress ecosystem',
+    description: 'WordPress projects delivered with Elementor, Divi, Avada, Gutenberg, Beaver Builder, Bricks, and other theme or builder configurations.'
+  },
+  {
+    id: 'website-platforms',
+    title: 'Website platforms',
+    description: 'Webflow, Wix, Squarespace 7.1 and legacy versions, Duda, Mopro, Amadeus, Weebly, Durable, and Showit.'
+  },
+  {
+    id: 'hosting',
+    title: 'Hosting & infrastructure',
+    description: 'GoDaddy website builder, domains, and hosting; DreamHost domains, account administration, WordPress hosting, and SQL.'
+  }
+];
+
 export const freelanceWork = [
+  {
+    id: 'solanique-group',
+    metric: 'Design + Dev',
+    title: 'Solanique Group Custom WordPress Theme',
+    description: 'Designed and developed a bespoke premium WordPress experience from the ground up, translating client requirements into a modular custom theme built with PHP, Vite, modern CSS, and vanilla JavaScript. The engagement covered information architecture, responsive UI, accessible interactions, technical SEO, performance optimization, and production delivery.',
+    tags: ['WordPress', 'PHP', 'Vite', 'Vanilla JavaScript', 'Accessibility', 'SEO & performance'],
+    link: 'https://solaniquegroup.com/',
+    linkLabel: 'View live website',
+    note: 'Freelance web design and development contract. Client content and brand assets remain the property of Solanique Group.'
+  },
   {
     id: 'fennec-mobile',
     metric: 'iOS + Android',

@@ -70,7 +70,7 @@
 .work-area__portfolio-heading h3 { margin-bottom: 0.5rem; }
 
 .experience-grid {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .experience-card {
@@ -108,12 +108,73 @@
   padding: 0.35rem 0.65rem;
 }
 
+.experience-card__link {
+  align-self: flex-start;
+  color: var(--accent-color);
+  font-weight: var(--font-bold);
+  margin-top: 1.25rem;
+  text-decoration: none;
+}
+
+.experience-card__link:hover { text-decoration: underline; }
+
+.experience-card__link:focus-visible {
+  border-radius: 0.25rem;
+  outline: 3px solid rgba(37, 99, 166, 0.25);
+  outline-offset: 3px;
+}
+
 .experience-card__note {
   border-top: 1px solid rgba(23, 50, 77, 0.1);
   color: var(--text-color);
   line-height: 1.6;
   margin-top: 1.25rem;
   padding-top: 1rem;
+}
+
+.platform-ecosystem {
+  background: linear-gradient(135deg, var(--accent-soft), var(--container-color));
+  border: 1px solid rgba(23, 50, 77, 0.12);
+  border-radius: 1rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.platform-ecosystem__heading {
+  margin-bottom: 1.5rem;
+  max-width: 640px;
+}
+
+.platform-ecosystem__heading > span {
+  color: var(--accent-color);
+  display: block;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.platform-ecosystem__heading h3 { font-size: clamp(1.35rem, 3vw, 1.85rem); }
+
+.platform-ecosystem__grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.platform-ecosystem__group {
+  border-top: 2px solid rgba(37, 99, 166, 0.25);
+  padding-top: 1rem;
+}
+
+.platform-ecosystem__group h4 {
+  color: var(--title-color);
+  margin-bottom: 0.55rem;
+}
+
+.platform-ecosystem__group p {
+  font-size: var(--small-font-size);
+  line-height: 1.7;
 }
 
 .work-area__cta {
@@ -129,5 +190,6 @@
 @media screen and (max-width: 768px) {
   .work-area__tabs { flex-wrap: wrap; }
   .experience-grid { grid-template-columns: 1fr; }
+  .platform-ecosystem__grid { grid-template-columns: 1fr; }
   .work-area__cta { align-items: flex-start; flex-direction: column; }
 }

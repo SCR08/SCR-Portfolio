@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CompanyPortfolio from './CompanyPortfolio';
 import CaseStudy from '../CaseStudy/CaseStudy';
 import ExperienceCards from './ExperienceCards';
-import { everbridalWork, freelanceWork } from './Data';
+import { everbridalPlatforms, everbridalWork, freelanceWork } from './Data';
 import './companyWork.css';
 
 const workAreas = [
@@ -67,6 +67,20 @@ const CompanyWork = () => {
               <p>Client-facing implementation work presented by capability because individual client names and account details are confidential.</p>
             </div>
             <ExperienceCards items={everbridalWork} />
+            <div className="platform-ecosystem" aria-labelledby="everbridal-platforms-title">
+              <div className="platform-ecosystem__heading">
+                <span>Platform experience</span>
+                <h3 id="everbridal-platforms-title">A broad client website ecosystem</h3>
+              </div>
+              <div className="platform-ecosystem__grid">
+                {everbridalPlatforms.map((group) => (
+                  <article className="platform-ecosystem__group" key={group.id}>
+                    <h4>{group.title}</h4>
+                    <p>{group.description}</p>
+                  </article>
+                ))}
+              </div>
+            </div>
           </div>
         )}
 
@@ -74,8 +88,8 @@ const CompanyWork = () => {
           <div className="work-area__content">
             <div className="work-area__intro">
               <span>Freelance & contract engagements</span>
-              <h3>Independent product implementation</h3>
-              <p>Selected contract work where public links are limited by client confidentiality.</p>
+              <h3>Independent web and product delivery</h3>
+              <p>Selected client engagements spanning custom website design, front-end development, and cross-platform product implementation.</p>
             </div>
             <ExperienceCards items={freelanceWork} />
             <div className="work-area__cta">
